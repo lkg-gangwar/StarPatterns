@@ -1,5 +1,5 @@
 import java.util.*;
-class Pattern5
+class Pattern8
 {
     public static void main(String[] args) {
        Scanner s = new Scanner(System.in);
@@ -7,19 +7,19 @@ class Pattern5
        
        for(int i=1; i<=n; i++)
        {
+            for(int k=1; k<=n-i; k++)
+            {
+                System.out.print(" ");
+            }
             for(int j=1; j<=i; j++)
             {
                 System.out.print("*");
             }
+            for(int l=2; l<i; l++)
+            {
+                System.out.print("*");
+            }
             System.out.println(); 
-       }
-       for(int k=1; k<=n; k++) 
-       {
-           for(int l=1; l<=n-k; l++)
-           {
-               System.out.print("*");
-           }
-           System.out.println();
        }
        s.close();
     }
