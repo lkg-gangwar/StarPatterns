@@ -1,1 +1,2 @@
 # StarPatterns
+The Java pattern program improves coding abilities, logic, and looping ideas. It is commonly asked in Java interviews to test the programmer's reasoning and thinking. A Java pattern program can be printed in a variety of styles. To learn the pattern program, we must first master the Java loop, such as for loop, do-while loop. This section will teach you how to print a pattern in Java.
